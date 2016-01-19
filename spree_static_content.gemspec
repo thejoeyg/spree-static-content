@@ -22,8 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.0.beta'
-
+  s.add_dependency 'solidus_core'
   s.add_development_dependency 'capybara', '~> 2.4.4'
   s.add_development_dependency 'factory_girl', '~> 4.4'
   s.add_development_dependency 'ffaker', '>= 1.25.0'
